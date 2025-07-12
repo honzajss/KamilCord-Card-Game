@@ -34,7 +34,6 @@ func _ready():
 	focus_info.info_panel_scene = info_panel_scene
 	focus_info.setup()
 
-
 func _process(_delta) -> void:
 #	if cfc.game_paused:
 #		print_debug(_current_focus_source)
